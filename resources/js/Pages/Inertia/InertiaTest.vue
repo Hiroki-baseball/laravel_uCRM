@@ -4,7 +4,7 @@ import { Link } from '@inertiajs/vue3';
 
 <template>
   Inertiaテストです。<br>
-  <a href="/">a tag</a><br>
-  <Link href="/">Link</Link><br>
-  <Link :href="route('inertia.index')">名前付きルート</Link>
+  <a href="/">aタグ経由です</a><br>
+  <Link href="/">Link経由です</Link><br>
+  <Link :href="route('inertia.index')">名前付きルートの確認です</Link>
 </template>
