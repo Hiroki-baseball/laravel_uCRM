@@ -14,9 +14,7 @@
         @routes
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
-        <script>
-        var Ziggy = @json($ziggy);
-    </script>
+
     </head>
     <body class="font-sans antialiased">
         @inertia

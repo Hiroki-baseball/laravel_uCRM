@@ -1,7 +1,9 @@
-
 <script setup>
+defineProps({
+    id:String
+})
 </script>
 
 <template>
-TEST
+    {{ id }}
 </template>
